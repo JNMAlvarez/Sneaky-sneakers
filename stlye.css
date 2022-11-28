@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  font-family: "Gelasio", serif;
+}
 
 .navbar {
   display: flex;
@@ -69,6 +72,15 @@ p {
   border-radius: 25px;
 }
 
+.button:hover {
+  background: #234700;
+  transition: all 0.5s ease-out;
+}
+
 .header {
   background: radial-gradient(rgb(171, 238, 171), #094d0d);
+}
+
+.header .row {
+  margin: 70;
 }
