@@ -1,0 +1,33 @@
+@import "reset";
+@import "variables";
+@import "_mixins";
+
+nav {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  ul {
+    list-style: none;
+    display: flex;
+
+    li {
+      margin-right: 2rem;
+
+      a {
+        text-decoration: none;
+        color: red;
+
+        &:hover {
+          color: black;
+        }
+      }
+    }
+  }
+}
+
+.text {
+  color: $primary-color;
+  font-size: $fontsize;
+}
